@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini task my skill</title>
+    <style>
+        /* Latar belakang degradasi */
+        body {
+            background: linear-gradient(to right, #1b055b, #0986d9); /* Ungu ke biru */
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center; /* Menyusun konten di tengah */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Gambar menjadi lingkaran dan di tengah */
+        img {
+            border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+            display: block;
+            margin: 20px auto; /* Menempatkan gambar di tengah dengan margin */
+            max-width: 100%; /* Membuat gambar responsif */
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #00f7ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling untuk tabel */
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid black; /* Mengubah warna border menjadi hitam */
+        }
+
+        th {
+            background-color: #0b0f3ee0; /* Ungu */
+            color: white;
+        }
+
+        td {
+            background-color: #f4f4f4;
+            color: black;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #e6e6e6; /* Warna berbeda untuk baris genap */
+        }
+
+        tr:hover td {
+            background-color: #d1c6e2; /* Warna saat baris di-hover */
+        }
+
+        /* Hilangkan garis untuk tabel perkenalan */
+        .no-border-table {
+            border: none;
+            box-shadow: none;
+            text-align: center; /* Rata tengah teks dalam tabel */
+        }
+
+        .no-border-table th, .no-border-table td {
+            border: none;
+            text-align: center;
+        }
+
+        /* Media Query untuk tampilan mobile */
+        @media (max-width: 768px) {
+            /* Mengubah ukuran tabel dan gambar pada layar kecil */
+            table {
+                width: 90%;
+            }
+
+            th, td {
+                font-size: 14px; /* Mengurangi ukuran teks di tabel */
+                padding: 10px;
+            }
+
+            img {
+                width: 150px; /* Menyesuaikan ukuran gambar di perangkat mobile */
+                height: 150px;
+            }
+
+            h1 {
+                font-size: 18px; /* Menyesuaikan ukuran judul */
+            }
+
+            p {
+                font-size: 14px; /* Menyesuaikan ukuran teks paragraf */
+            }
+
+            /* Membuat link lebih besar untuk akses mudah */
+            a {
+                font-size: 16px;
+            }
+        }
+
+        /* Media Query untuk tampilan lebih kecil (mobile) */
+        @media (max-width: 480px) {
+            /* Menyesuaikan ukuran gambar, teks dan tabel */
+            table {
+                width: 100%; /* Tabel memaksimalkan lebar layar */
+            }
+
+            th, td {
+                font-size: 12px; /* Lebih kecil di layar sangat kecil */
+                padding: 8px;
+            }
+
+            img {
+                width: 120px; /* Lebih kecil pada layar kecil */
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 16px; /* Lebih kecil pada layar kecil */
+            }
+
+            p {
+                font-size: 12px; /* Mengurangi ukuran teks di perangkat kecil */
+            }
+
+            a {
+                font-size: 14px; /* Menyesuaikan ukuran link */
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="new.jpg" width="200" height="200"> <!-- Gambar diubah jadi lingkaran -->
+    <h1>Ryo Satriagung Hidayat</h1>
+
+    <!-- Tabel Perkenalan tanpa garis dan teks rata tengah -->
+    <table class="no-border-table">
+        <tr>
+            <th>Perkenalan</th>
+        </tr>
+        <tr>
+            <td>Hai all, saya Ryo dan aya tertarik untuk mendalami dunia teknologi, terutama dalam pengembangan web sebagai seorang Frontend Engineer. Saat ini, saya sedang mengikuti bootcamp di MySkill untuk mengasah keterampilan dan memperdalam pengetahuan saya dalam menciptakan website yang menarik, fungsional, dan responsif. </td>
+        </tr>
+    </table>
+
+    <h1>Kenapa Saya Ingin Belajar Membuat Website ?</h1>
+
+    <!-- Tabel Kenapa belajar membuat website -->
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Alasan</th>
+            <th>Deskripsi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><b>Suka Desain dan Coding</b></td>
+            <td>Bisa gabungin kreativitas desain dengan keterampilan coding untuk bikin website yang menarik.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><b>Peluang Karir</b></td>
+            <td>Banyak permintaan untuk web developer, terutama front-end, di dunia teknologi.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><b>Meningkatkan Skill Teknis</b></td>
+            <td>Belajar cara kerja berbagai elemen website dan jadi lebih paham tentang HTML, CSS, dan JavaScript.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><b>Bangun Proyek Sendiri</b></td>
+            <td>Bisa bikin website untuk proyek pribadi atau bahkan untuk orang lain, seperti website e-commerce atau blog.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><b>Website yang Responsif</b></td>
+            <td>Bisa bikin website yang bisa diakses dengan baik di berbagai perangkat, dari HP sampai laptop.</td>
+        </tr>
+    </table>
+
+    <p>yuuuk, kenalan sama saya di Linkedin <a href="https://www.linkedin.com/in/ryosatria2105">Ryo Satriagung Hidayat</a></p>
+</body>
+</html>
